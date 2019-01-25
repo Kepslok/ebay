@@ -1,0 +1,116 @@
+@font-face{
+    font-family: cooper;
+    src: url(../fonts/Cooper_Std_Black.ttf);
+}
+#body{
+    text-align: center;
+    background-color: #eaefeb;
+}
+#container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    overflow: hidden;
+}
+h1{
+    font-family: cooper, Verdana, Tahoma;
+    font-weight: bold;
+    font-size: 3em;
+}
+h3{
+    font-style: oblique;
+}
+hr{
+    clear: both;
+    color: dimgrey;
+    margin-top: 60px;
+}
+#zoekertje{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+    overflow: hidden;
+}
+#navbar{
+    width: 98%;
+    height: 100px;
+    background-color: white;
+    overflow: hidden;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 15px;
+}
+#navbar > img{
+    max-height: 100%;
+}
+.right{
+    float:right;
+}
+.left{
+    float:left;
+}
+.bar{
+    /*background-image: url(../images/bar.jpg);*/
+    background-image: repeating-linear-gradient(rgb(255,255,255), rgb(0,154,13));
+    margin-top: 35px;
+    text-align: center;
+    font-family: cooper, Verdana, Tahoma;
+    
+}
+.bar > p{
+
+    
+}
+#specification{
+    float:right;
+    width: 50%;
+    margin-top: 35px;
+    text-align: left;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+#specification > ul > li{
+    margin-top: 12px;
+}
+.afbeelding{
+    /*width: 50%;*/
+    width: 100%;
+}
+#afbeelding{
+    float: left;
+    width: 50%;
+    
+}
+#shipping{
+    float:left;
+    width: 50%;
+    text-align: left;
+    clear:left;
+    margin-left: 10px;
+    font-weight: 200;
+}
+.titel{
+    /*max-height: 100%;*/
+    font-size: 25pt;
+    font-weight: 50;
+    margin-top:1%;
+    margin-bottom: 1%;
+    color: white;
+    display: inline-block;
+}
+.ondertitel{
+    font-size: 1.5em;
+    font-weight: 50;
+    margin-top:1%;
+    margin-bottom: 1%;
+    color: white;
+    display: inline-block;
+}
+#questions{
+    float:right;
+    width: 50%;
+    text-align: left;
+    clear:left;
+    margin-right: 10px;
+}
