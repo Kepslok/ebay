@@ -156,6 +156,6 @@ nav a:hover:not(.active){
     background-image: repeating-linear-gradient(rgb(255,255,255), rgb(0,154,13));
 }
 .warning{
-    color: red;
+    color: darkred;
     font-weight: bold;
 }
