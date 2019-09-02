@@ -81,7 +81,7 @@ hr{
 #afbeelding{
     float: left;
     width: 50%;
-    
+    image-orientation: none;
 }
 #shipping{
     float:left;
