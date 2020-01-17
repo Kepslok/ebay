@@ -141,7 +141,7 @@ hr{
 #footer a:hover{
     color: white;
 }
-.top{
+#footer .top{
     width: 100%;
     background-color: #3b6a41;
     margin-top: 0;
