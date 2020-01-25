@@ -75,6 +75,9 @@ hr{
     font-size: 1.2em;
     font-weight: bold;
 }
+#specification p{
+    margin-left: 10px;
+}
 #specification > ul > li{
     margin-top: 12px;
 }
