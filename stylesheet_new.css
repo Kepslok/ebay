@@ -510,6 +510,12 @@
 
     }
 
+    .CenterImage{
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     #TabbableContent label:hover {
 
         color: #888;
