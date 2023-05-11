@@ -1,0 +1,711 @@
+    * {
+
+        -webkit-box-sizing: border-box;
+
+        -moz-box-sizing: border-box;
+
+        box-sizing: border-box;
+
+    }
+
+    header img#MastLogo {
+
+        float: left;
+
+        max-width: 250px;
+
+        margin: 0;
+
+    }
+
+    header img#MastTelephone {
+
+        float: right;
+
+        max-width: 250px;
+
+        margin: 0;
+
+    }
+
+    header p {
+
+        margin: 0;
+
+        float: right;
+
+        text-align: right;
+
+        color: #a5a5a5;
+
+    }
+
+    header p span {
+
+        font-size: 18px;
+
+        color: #000;
+
+    }
+
+    header {
+
+        background: #fff;
+
+        padding: 15px 0;
+
+    }
+
+    header,
+
+    footer {
+
+        float: left;
+
+        width: 100%;
+
+    }
+
+    #Accreditations {
+
+        float: left;
+
+        width: 100%;
+
+        margin-top: 20px;
+
+    }
+
+    #Accreditations img {
+
+        width: 100%;
+
+        height: auto;
+
+    }
+
+    #MastNav {
+
+        float: left;
+
+        width: 100%;
+
+        overflow: hidden;
+
+        position: relative;
+
+        margin-bottom: 20px;
+
+    }
+
+    #MastNav ul {
+
+        float: left;
+
+        padding: 0;
+
+        margin: 0;
+
+        list-style: none;
+
+        position: relative;
+
+        display: block;
+
+        width: 100%;
+
+        border-bottom: 6px solid #456d44;
+
+        padding-bottom: 20px;
+
+    }
+
+    #MastNav ul li {
+
+        position: relative;
+
+        float: left;
+
+        display: block;
+
+        font-size: 13px;
+
+        width: 20%;
+
+        text-align: center;
+
+        font-weight: 700;
+
+    }
+
+    #MastNav ul li a {
+
+        display: block;
+
+        text-decoration: none;
+
+        color: #000;
+
+    }
+
+     #MastNav ul li a img {
+
+        float: left;
+
+        width: 100%;
+
+        height: auto;
+
+     }
+
+    #MastNav ul li a:hover {
+
+        color: #456d44;
+
+    }
+
+    #pagewrap {
+
+        max-width: 980px;
+
+        margin: 0 auto;
+
+        font-family:Verdana, Geneva, sans-serif;
+
+        font-size: 14px;
+
+        color: #000;
+
+    }
+
+	#MainContent table tr.alt td {
+
+        background: #efefef;
+
+    }
+
+	#MainContent div[style] {
+
+        width: 100%!important;
+
+        float: left;
+
+        display: block;
+
+		border:0 !important;
+
+    }
+
+    #MainContent table[style] {
+
+        width: 100%!important;
+
+		margin-bottom:20px;
+
+    }
+
+    #ImageGallery {
+
+        width: 40%;
+
+        float: left;
+
+        position: relative;
+
+        padding-top: 41%;
+
+        margin-bottom: 20px;
+
+    }
+
+    #ImageGallery section.ImgTabContent {
+
+        display: none;
+
+        padding: 0;
+
+        float: none;
+
+        position: absolute;
+
+        top: 0;
+
+        left: 0;
+
+        width: 100%;
+
+    }
+
+    #ImageGallery section.ImgTabContent img {
+
+        width: 100%;
+
+        padding: 5px;
+
+        border: 1px solid #efefef;
+
+        height: auto;
+
+    }
+
+    #ImageGallery input {
+
+        display: none;
+
+    }
+
+    #ImageGallery label {
+
+        display: block;
+
+        float: left;
+
+        width: 25%;
+
+        padding: 5px;
+
+    }
+
+    #ImageGallery label img {
+
+        width: 100%;
+
+        height: auto;
+
+        padding: 5px;
+
+        border: 1px solid #efefef;
+
+    }
+
+    #ImageGallery label:hover img {
+
+        border-color: #456d44;
+
+    }
+
+    #ImageGallery label:hover {
+
+        cursor: pointer;
+
+    }
+
+    #Image01:checked ~ #BigImg01,
+
+    #Image02:checked ~ #BigImg02,
+
+    #Image03:checked ~ #BigImg03,
+
+    #Image04:checked ~ #BigImg04,
+
+    #Image05:checked ~ #BigImg05,
+
+    #Image06:checked ~ #BigImg06,
+
+    #Image07:checked ~ #BigImg07,
+
+    #Image08:checked ~ #BigImg08,
+
+    #Image09:checked ~ #BigImg09,
+
+    #Image10:checked ~ #BigImg10,
+
+    #Image11:checked ~ #BigImg11,
+
+    #Image12:checked ~ #BigImg14,
+
+    #Image13:checked ~ #BigImg13,
+
+    #Image14:checked ~ #BigImg14,
+
+    #Image15:checked ~ #BigImg15,
+
+    #Image16:checked ~ #BigImg16  {
+
+        display: block;
+
+    }
+
+    .ImgTabContent {
+
+        float: left;
+
+        width: 100%;
+
+    }
+
+    #MainContent {
+
+        width: 55%;
+
+        float: right;
+
+        margin-bottom: 20px;
+
+    }
+
+    #MainContent h1,
+
+    #MainContent h2,
+
+    #MainContent h3,
+
+    #MainContent h4,
+
+    #MainContent h5,
+
+    #MainContent h6 {
+
+        font-weight: 700;
+
+        text-transform: uppercase;
+
+    }
+
+    #MainContent h1 {
+
+        font-size: 24px;
+
+		color: #456d44;
+
+    }
+
+    #MainContent h2 {
+
+        font-size: 20px;
+
+    }
+
+    #MainContent h3 {
+
+        font-size: 18px;
+
+    }
+
+    #MainContent h4 {
+
+        font-size: 16px;
+
+    }
+
+    #MainContent h5 {
+
+        font-size: 14px;
+
+    }
+
+    #MainContent h6 {
+
+        font-size: 12px;
+
+    }
+
+    #MainContent p {
+
+        color: #000;
+
+        line-height: 22px;
+
+    }
+
+    #MainContent ul,
+
+    #MainContent ol {
+
+        color: #000;
+
+        padding-left: 20px;
+
+    }
+
+    #MainContent ul li,
+
+    #MainContent ol li {
+
+        margin: 6px 0;
+
+        color: #000;
+
+    }
+
+    #MainContent table {
+
+        width: 100%;
+
+        border-collapse: collapse;
+
+        border: solid 1px #efefef;
+
+        font-size: 13px;
+
+        margin-top: 10px;
+
+        float: left;
+
+    }
+
+    #MainContent table tr td {
+
+        border: solid 1px #efefef;
+
+        padding: 5px;
+
+        text-align: left;
+
+    }
+
+    #TabbableContent {
+
+        float: left;
+
+        width: 100%;
+
+    }
+
+    #TabbableContent section {
+
+        display: none;
+
+        padding: 20px 0 0;
+
+        border-top: 1px solid #ddd;
+
+        float: left;
+
+        width: 100%;
+
+    }
+
+    #TabbableContent input {
+
+        display: none;
+
+    }
+
+    #TabbableContent label {
+
+        display: block;
+
+        padding: 2% 0%;
+
+        font-weight: 700;
+
+        text-align: center;
+
+        color: #fff;
+
+        border-radius: 4px 4px 0 0;
+
+        background: #bbb;
+
+        font-size: 14px;
+
+        float: left;
+
+        width: 33%;
+
+    }
+
+    #TabbableContent label:hover {
+
+        color: #888;
+
+        cursor: pointer;
+
+    }
+
+    #TabbableContent input:checked + label {
+
+        color: #fff;
+
+        background: #456d44;
+
+    }
+
+    #Terms:checked ~ #TermsTab,
+
+    #Payments:checked ~ #PaymentsTab,
+
+    #Shipping:checked ~ #ShippingTab,
+
+    #Returns:checked ~ #ReturnsTab {
+
+        display: block;
+
+    }
+
+    .TabContent h3 {
+
+        margin: 0;
+
+    }
+
+    .TabContent p {
+
+        line-height: 22px;
+
+        color: #000;
+
+    }
+
+    .TabContent ul li,
+
+    .TabContent ol li {
+
+        color: #000;
+
+        margin: 6px 0;
+
+    }
+
+/************************************************************************************
+
+MEDIA QUERIES for 980px or less
+
+*************************************************************************************/
+
+@media screen and (max-width: 980px) {
+
+    #TabbableContent label {
+
+        width: 33%;
+
+        font-size: 13px;
+
+    }
+
+    #MainContent {
+
+        width: 55%;
+
+    }
+
+    #ImageGallery {
+
+        width: 40%;
+
+        padding-top: 41%;
+
+    }
+
+    header img#MastLogo {
+
+        float: left;
+
+    }
+
+    header img#MastTelephone {
+
+        float: right;
+
+    }
+
+}
+
+/************************************************************************************
+
+MEDIA QUERIES for 700px or less
+
+*************************************************************************************/
+
+@media screen and (max-width: 600px) {
+
+    #TabbableContent label {
+
+        width: 50%;
+
+        font-size: 12px;
+
+        border-radius: 0;
+
+    }
+
+    #MainContent {
+
+        width: 55%;
+
+    }
+
+    #ImageGallery {
+
+        width: 40%;
+
+        padding-top: 41%;
+
+    }
+
+    header img#MastLogo {
+
+        float: left;
+
+    }
+
+    header img#MastTelephone {
+
+        float: right;
+
+    }
+
+     #MastNav {
+
+        display: none;
+
+     }
+
+}
+
+/************************************************************************************
+
+MEDIA QUERIES for 480px or less
+
+*************************************************************************************/
+
+@media screen and (max-width: 480px) {
+
+    #TabbableContent label {
+
+        width: 100%;
+
+        font-size: 12px;
+
+        border-radius: 0;
+
+        padding: 4% 0%;
+
+    }
+
+    #MainContent,
+
+    #ImageGallery {
+
+        width: 100%;
+
+    }
+
+    #ImageGallery {
+
+        padding-top: 107%;
+
+    }
+
+    header img#MastLogo,
+
+    header img#MastTelephone {
+
+        float: none;
+
+        margin: auto;
+
+        width:  auto;
+
+        display: block;
+
+    }
+
+     #MastNav {
+
+        display: none;
+
+     }
+
+}
